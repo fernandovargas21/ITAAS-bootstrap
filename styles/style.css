@@ -21,7 +21,7 @@ body {
     
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content:center;
     flex-direction: row;
 }
 
@@ -43,3 +43,7 @@ body {
 
 /*fin-index*/
 /*servicios*/
+.col-md-4{
+    padding: 1%;
+   
+}
