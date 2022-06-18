@@ -1,7 +1,7 @@
 /*index*/
 #navid {
     background-color: $colorNavid;
-    border-radius: 20%;
+ 
 }
 
 #carrusel {
@@ -10,6 +10,7 @@
     flex-wrap: wrap;
     justify-content:center;
     flex-direction: row;
+    text-align: center;
 }
 
 #padd {
@@ -45,5 +46,13 @@
     padding-top: 1%;
     }
 }
+.footerdiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #56716296;
+  }
 
 /*fin-index*/
