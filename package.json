@@ -1,7 +1,7 @@
 {
   "name": "in-the-air-aeronautical-services",
   "version": "1.0.0",
-  "description": "ITAAS es una web sobre servicios relacionados a la aviacion ejecutiva y sanitaria",
+  "description": "ITAAS es una web de servicios y contrataciones de los mismos relacionados a la aviacion ejecutiva y sanitaria",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
