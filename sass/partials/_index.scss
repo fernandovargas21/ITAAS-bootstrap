@@ -1,58 +1,39 @@
-/*index*/
-#navid {
-    background-color: $colorNavid;
- 
+/*INDEX*/
+#navbarindex{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+#main{
+  text-align: center;
+  color:rgba(20, 24, 238, 0.521);
+  text-shadow:1px 1px 2px #999;
+  padding-top: 5%;
+}
+.video-container{
+  position: absolute;
+  z-index: -1;
+  top:0;
+  left:0;
+  width: 100%;
+  height:100%;
+}
+.video-container video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-#carrusel {
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    flex-direction: row;
-    text-align: center;
+#footerindex{
+  font-size: small;
+  text-align: center;
 }
 
-#padd {
-    padding-top: 10%;
-    padding-bottom: 10%;
-}
 
-#iframe {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-}
 
-.col-md-12 {
-    padding-top: 1%;
-}
 
-.row{
-    padding: 1%;
-    &__p{
-        display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-top: 1%;
-    }
-    &__navbar{
-        display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 1%;
-    }
-}
-#footerdiv{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: center;
-    background-color: #56716296;
-  }
 
-/*fin-index*/
+
